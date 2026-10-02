@@ -1,0 +1,80 @@
+# git: 77 readability findings — fix in src/content/_specs/git.mjs, then
+#   node tools/reauthor.mjs git && GATE_DETAIL=6 bash tools/audit/run.sh git
+# hub-level notes first, then one line per lesson finding.
+readability: hub never gets past the basics	no internals or production-level lesson
+readability: jargon in the opener with no gloss	FOUR
+readability: jargon in the opener with no gloss	ONE
+readability: opener is too dense to start from	15 sentences, 19 words each
+readability: jargon in the opener with no gloss	THREE
+readability: sentence too long to follow	CORRUPTOR THREE — THE MAGIC-COMMAND FALLACY: incantations memorized per incident ("my go-to reset sequence", the copy-pasted rebas…
+readability: one word carries the whole paragraph	“doctrine” x17 :: Three machines beneath the residents price the archive's physics, and the doctrine reads each at need. LOOSE-O
+readability: one word carries the whole paragraph	“doctrine” x17 :: CASE ONE — THE MORNING THAT WAS NEVER LOST: a developer stages 40 files of delicate work, types git checkout .
+readability: one word carries the whole paragraph	“doctrine” x27 :: CASE TWO — THE HALF-GIGABYTE NPM: a team vendors node_modules plus build outputs into the repo "for reliabilit
+readability: one phrase repeated instead of explained	“doctrine priced” x7 :: CASE TWO — THE HALF-GIGABYTE NPM: a team vendors node_modules plus build outputs into the repo "for reliabilit
+readability: the second sentence repeats the first	3) the migration doctrine doctrine: history surgery priced where the a || Every clone re-synchronized after surgery, the moving-walls doctrine f
+readability: sentence too long to follow	12,000 artifacts priced per week (the folklore doctrine: committed files are priced permanently at every clone, priced at archive …
+readability: one word carries the whole paragraph	“doctrine” x5 :: MONOREPO ARCHIVES: the single-ledger doctrine priced with the archive physics in view (sparse-checkout doctrin
+readability: one word carries the whole paragraph	“doctrine” x9 :: HOOKS AS GATEKEEPERS: pre-commit doctrine priced at ledger lines (lint doctrine, secret doctrine probes priced
+readability: one word carries the whole paragraph	“doctrine” x7 :: SIGNING DOCTRINE: signed commits/tags priced as authorship-sealed receipts (the ledger doctrine adjacent doctr
+readability: one word carries the whole paragraph	“doctrine” x9 :: AND THE ARCHIVE DOCTRINE PROPHECY: every later station in this hub (labels doctrine in the atelier, courts doc
+readability: the second sentence repeats the first	The commit archives the 09:10 version ONLY: the ledger doctrine isolat || Receipts: git status shows BOTH "staged changes" (ledger lines priced:
+readability: the second sentence repeats the first	Walk: (1) git rev-parse release — gate doctrine: the label resolves to || The whole walk prices address-by-address — no folklore, every step ans
+readability: sentence too long to follow	Walk: (1) git rev-parse release — gate doctrine: the label resolves to one commit address; (2) git cat-file -t <addr> — kind doctr…
+readability: sentence too long to follow	Lineage doctrine only: retrieve any commit and every byte of that moment is priced walkable (commit → tree → subtree → blob), whic…
+readability: the second sentence repeats the first	add: floor → ledger (bytes priced into blob residents; ledger lines pr || Fetch: remote archive → local archive (residents priced and TRACK labe
+readability: metaphor where the mechanism belongs	ledger, floor :: add: floor → archive; commit: archive → remote; fetch: remote → floor; checkout: ledger → floor
+readability: one word carries the whole paragraph	“doctrine” x7 :: INSPECTION WAIVER: lawful for READ walks (reviewing an old moment, pricing a candidate tag doctrine, teaching 
+readability: opener is too dense to start from	13 sentences, 20 words each
+readability: jargon in the opener with no gloss	THE
+readability: the second sentence repeats the first	CORRUPTOR TWO — THE MERGE MACHISMO: rebase banned as sin, every integr || CORRUPTOR THREE — THE PUBLIC REBASE SIN: the law broken anyway as week
+readability: sentence too long to follow	THE ORIG_HEAD STOOL: before a loom walk begins, the incumbent address is scribbled at ORIG_HEAD (and the reflog takes fuller notes…
+readability: sentence too long to follow	Monday prices itself in three currencies: pull panics (mirrors discover their labels are zombies, fetch-vs-local priced irreconcil…
+readability: sentence too long to follow	The Conflict Court convenes at the choked moment: the three-way judge (base, ours, theirs priced as the merge-base oracle plus two…
+readability: the second sentence repeats the first	Merge walk: switch main; merge --no-ff feature → M minted with parents || Rebase walk (PRIVATE ONLY — feature never pushed): switch feature; reb
+readability: sentence too long to follow	Forward-priced repair (never a second law-break): accept the rebased lineage as the standing truth; each teammate replays ONLY the…
+readability: opener is too dense to start from	7 sentences, 41 words each
+readability: jargon in the opener with no gloss	BAD
+readability: the second sentence repeats the first	A conflict is a question the archive REFUSES to guess — three witnesse || THE COURT CONVENES: the loom pauses (merge waits at its new two-parent
+readability: sentence too long to follow	A conflict is a question the archive REFUSES to guess — three witnesses (base, ours, theirs) each priced their version of one regi…
+readability: one phrase repeated instead of explained	“the scribe” x6 :: The courtroom has two floors, and the doctrine reads both. THE SLOT COURTROOM: the index is the binary ledger 
+readability: the second sentence repeats the first	THE RR-CACHE SCRIBE: under .git/rr-cache the scribe keeps one director || Replay doctrine: when a future conflict hashes identically, the scribe
+readability: sentence too long to follow	THE RR-CACHE SCRIBE: under .git/rr-cache the scribe keeps one directory per conflict SHAPE (the hash doctrine applied to the stanz…
+readability: the second sentence repeats the first	Rerere enabled after the third walk: one verdict priced (stanza read, || The demolition: (1) the scribe enabled BEFORE the long loom (git confi
+readability: sentence too long to follow	AND THE COURT PROPHECY: every later station draws on this testimony doctrine — the tides price publication, the history atelier pr…
+readability: sentence too long to follow	The Remote Tides walk the second archive: the fetch doctrine priced as pure receipts (remote lineage into the local archive, track…
+readability: the second sentence repeats the first	Citizen 3: you priced the verdict (stanza read, union edited, add disc || Citizens 7, 12, 19: the shape-match doctrine fires — identical stanza 
+readability: sentence too long to follow	Citizens 7, 12, 19: the shape-match doctrine fires — identical stanza hashes identically, the scribe WRITES the recorded postimage…
+readability: sentence too long to follow	VERDICT PHOTOGRAPHY PLUS SHAPE-MATCH REPLAY: every verdict captured as preimage (the exact conflict stanza) + postimage (your reso…
+readability: opener is too dense to start from	14 sentences, 21 words each
+readability: jargon in the opener with no gloss	THE
+readability: the second sentence repeats the first	A remote is not a server and not a backup folder — it is a SECOND ARCH || The tides are the deliberate operations that let the two archives talk
+readability: the second sentence repeats the first	the rejection doctrine: not an insult but A COURT SUMMONS — fetch the || PULL is folklore's blurred button (fetch + a loom — merge or rebase pe
+readability: one phrase repeated instead of explained	“the mirror” x6 :: The tides run on three quiet machines beneath the folklore. THE NEGOTIATION DOCTRINE: fetch and push never cop
+readability: sentence too long to follow	CASE TWO — THE BLURRED-PULL GHOST LOOM: a team practicing "git pull every morning" (the one-button doctrine: sync priced as one wo…
+readability: sentence too long to follow	The error-proof ledger where orphaned citizens price resurrection paths), restore/checkout switchblade doctrines priced as time-sc…
+readability: one word carries the whole paragraph	“origin” x5 :: গেট দেখে আপনার রসিদ বলে origin/main=M3 কিন্তু আয়না দাঁড়িয়ে M4-এ (আপনার জোয়ারের পর সহকর্মী-উত্তরাধিকার মূল্
+readability: opener is too dense to start from	6 sentences, 48 words each
+readability: jargon in the opener with no gloss	THE
+readability: the second sentence repeats the first	THE RESTORE SCALPEL: restore prices rollback scoped precisely — source || THE RESET GEARS: three gears priced on WHAT moves — --soft (label only
+readability: the second sentence repeats the first	THE RESTORE SCALPEL (the scope doctrine): folklore prices restore as a || THE RESET GEARS (the movement doctrine): --soft moves ONLY the label (
+readability: sentence too long to follow	THE REFLOG FIRST (the diary doctrine): every label move your archive has ever taken is journaled — git reflog reads the diary (the…
+readability: the second sentence repeats the first	CORRUPTOR ONE — THE FINAL-WORD FOLKLORE: commits priced unchangeable — || CORRUPTOR TWO — THE BLUDGEON DOCTRINE: every undo priced --hard (demol
+readability: the second sentence repeats the first	THE DIARY MACHINE: beneath .git/logs/HEAD (and one per branch label) t || THE UNLINK-ARITHMETIC: citizens are never physically deleted on undo; 
+readability: sentence too long to follow	THE DIARY MACHINE: beneath .git/logs/HEAD (and one per branch label) the archive appends one plain line per move (old address, new…
+readability: the second sentence repeats the first	CASE ONE — THE HARD-RESET WEEKEND: at Friday dusk a developer holds a || Three floors rolled: the label (cheap), the staged ledger (the week's 
+readability: sentence too long to follow	CASE ONE — THE HARD-RESET WEEKEND: at Friday dusk a developer holds a finished day's craft STAGED but uncommitted (the staging doc…
+readability: sentence too long to follow	The demolition: (1) raw force priced server-refused (lock law at the mirror gate: main priced protected; force priced admission-de…
+readability: one word carries the whole paragraph	“priced” x13 :: The Team Chronicle walks the final frontier — the looms at staffed scale: workflow doctrines priced per distri
+readability: sentence too long to follow	The Team Chronicle walks the final frontier — the looms at staffed scale: workflow doctrines priced per district-fate (trunk-based…
+readability: the second sentence repeats the first	Recovery priced: (1) diary-first doctrine — git reflog walks every lab || THE UNCOMMITTED-WORK DOCTRINE PRICED THE FATAL EDGE: your staged-but-u
+readability: sentence too long to follow	Recovery priced: (1) diary-first doctrine — git reflog walks every label move with old-sha/new-sha address pairs; find the standin…
+readability: the second sentence repeats the first	Gear-by-gear priced: --soft moves ONLY the label (commit erased from t || --mixed moves label AND re-derives the ledger from target (payload pri
+readability: the second sentence repeats the first	The transplant doctrine priced: (1) walk doctrine — git switch main; ( || 4) mirror-tolerance priced: every clone's receipt doctrine walks fine 
+readability: sentence too long to follow	The transplant doctrine priced: (1) walk doctrine — git switch main; (2) value doctrine — git cherry-pick b7c1e3f: the hotfix payl…
+readability: opener is too dense to start from	10 sentences, 18 words each
+readability: jargon in the opener with no gloss	CONTRIBUTING
+readability: same Bengali word repeated	যেখানে x6
+readability: the second sentence repeats the first	Priced per district: (a) TRUNK — versions alive = 1 and deploy tempo = || (b) GARRISON — versions alive = 2 (v2 licensed beside v3), the taxonom
+readability: the second sentence repeats the first	feature/search — SALVAGE THIS WEEK: measured 3-behind prices cheap reb || feature/old-firewall — RESHAPE THEN SALVAGE: the 284-behind debt ledge
+readability: opener is too dense to start from	9 sentences, 20 words each
+readability: metaphor where the mechanism belongs	court, cellar :: the republic priced whole: every station — cellar, atelier, court, tides, history workshop, chronicle — is one

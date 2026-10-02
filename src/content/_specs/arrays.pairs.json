@@ -1,0 +1,82 @@
+{
+ "what-is-an-array": {
+  "note": "পাশাপাশি block + নম্বর দেওয়া slot = যেকোনো index সঙ্গে সঙ্গে পড়া যায়। array-র বাকি সব কথা এখান থেকেই আসে।",
+  "quiz.questions[0].options[3].bn": "index নেই বলে",
+  "quiz.questions[1].options[0].bn": "তৃতীয় উপাদানটি",
+  "quiz.questions[1].options[2].bn": "RangeError throw হবে",
+  "quiz.questions[2].options[0].bn": "দৈর্ঘ্য আলাদা",
+  "quiz.questions[2].options[2].bn": "সাজানোর ক্রম",
+  "quiz.questions[2].options[3].bn": "একটি NodeList, array নয়"
+ },
+ "indexes-length-and-holes": {
+  "pitfall.t": "length দিয়ে লুপ চালাওয়া",
+  "exercises[2].options[0].bn": "২ — যে দুটি বাক্সে মান আছে",
+  "exercises[2].options[2].bn": "১ — শুধু প্রথমটি",
+  "quiz.questions[1].options[0].bn": "index -২, এটি throw করবে",
+  "quiz.questions[1].options[1].bn": "শেষ থেকে দ্বিতীয় বাক্সটি",
+  "quiz.questions[1].options[2].bn": "দুটি উপাদান কেটে ফেলে",
+  "quiz.questions[1].options[3].bn": "শেষের দুটি উপাদান",
+  "quiz.questions[2].options[1].bn": "বাক্সগুলো খালি করে: একই array-তে সব মুছে দেয়",
+  "quiz.questions[2].options[2].bn": "array-এর কপি বানায়",
+  "quiz.questions[2].options[3].bn": "variable-টিই মুছে ফেলে"
+ },
+ "add-remove-and-mutate": {
+  "blocks[5].rows[6][0].bn": "নতুন array চাইলে"
+ },
+ "walking-an-array": {
+  "exercises[1].options[0].bn": "forEach-এ return দিলেই থামে",
+  "exercises[1].options[1].bn": "for…of + break — থামার একমাত্র ছোট পথ",
+  "exercises[1].options[2].bn": "map + flag, শেষ পর্যন্ত সব বাক্স পড়ে",
+  "quiz.questions[1].options[2].bn": "array-এর কপি",
+  "quiz.questions[1].options[3].bn": "string হিসেবে key",
+  "quiz.questions[2].options[0].bn": "শুধু ধীর বলে",
+  "quiz.questions[2].options[1].bn": "key string হিসেবে আসে, array-তে বসানো অ-সংখ্যক property-ও পড়ে",
+  "quiz.questions[2].options[2].bn": "শেষ উপাদানটি বাদ দেয়",
+  "quiz.questions[2].options[3].bn": "hole দেখলে throw করে",
+  "quiz.questions[3].options[0].bn": "return false দিলে থামে",
+  "quiz.questions[3].options[1].bn": "ভেতরে break চলে",
+  "quiz.questions[3].options[2].bn": "না — শেষ বাক্স পর্যন্ত চলে",
+  "quiz.questions[3].options[3].bn": "শুধু সংখ্যার array-তে"
+ },
+ "transform-with-methods": {
+  "note": "map: একে-অনেক। filter: একে-শূন্য-বা-এক। reduce: অনেককে-এক। কোনটি নেবেন তা পদ্ধতি দেখে ঠিক করবেন, অভ্যাস দেখে নয়।",
+  "blocks[10].text.bn": "map: একে-অনেক। filter: একে-শূন্য-বা-এক। reduce: অনেককে-এক। কোনটি নেবেন তা পদ্ধতি দেখে ঠিক করবেন, অভ্যাস দেখে নয়।",
+  "quiz.questions[0].options[0].bn": "সেই item বাদ দিয়ে নতুন array",
+  "quiz.questions[0].options[2].bn": "সেই জায়গায় undefined বসানো array",
+  "quiz.questions[1].options[0].bn": "ওই উপাদানটি ফেরত দেয়",
+  "quiz.questions[1].options[1].bn": "TypeError ছোঁড়ে",
+  "quiz.questions[1].options[2].bn": "undefined ফেরত দেয়",
+  "quiz.questions[1].options[3].bn": "চিরকাল চলতে থাকে",
+  "quiz.questions[2].options[2].bn": "TypeError: Reduce of empty array — খালি array-তে seed না দিলে এই error-টাই ছোঁড়ে"
+ },
+ "find-and-test": {
+  "quiz.questions[2].options[1].bn": "some ৩-এ থামে, every চলতেই থাকে",
+  "quiz.questions[2].options[2].bn": "every প্রথম false-এ থামে, some প্রথম true পর্যন্তই চলে",
+  "quiz.questions[2].options[3].bn": "দুটোই থামে না"
+ },
+ "sort-and-order": {
+  "note": "সংখ্যার array হলেই comparator লাগবে — বাকি সব ক্ষেত্রে দরকার নেই; তবু কী দিয়ে সাজানো হচ্ছে, এক লাইনে লিখে রাখা ভালো।",
+  "quiz.questions[0].options[0].bn": "সাজানো নতুন array",
+  "quiz.questions[0].options[1].bn": "একই array, জায়গাতেই সাজানো",
+  "quiz.questions[0].options[3].bn": "প্রথম বদলানো index",
+  "quiz.questions[1].options[2].bn": "a-কে শেষে পাঠায়",
+  "quiz.questions[2].options[2].bn": "a.price - b.price",
+  "quiz.questions[3].options[0].bn": "কপি সাজিয়ে সেটি ফেরত দেয়",
+  "quiz.questions[3].options[2].bn": "কোনো comparator লাগে না",
+  "quiz.questions[3].options[3].bn": "শুধু সংখ্যা সাজায়"
+ },
+ "arrays-in-memory": {
+  "note": "ক্রম + index চাই → array। আছে কি না জানতে → Set। key দিয়ে খুঁজতে → Map। খালি সংখ্যা দলে দলে → typed array। যে নিশ্চয়তাটা আসলে দরকার, তারই দাম দিন।",
+  "blocks[4].rows[3][0].bn": "থাকে কি না দেখা",
+  "blocks[4].rows[5][0].bn": "কপি করে যোগ করা",
+  "blocks[4].rows[6][0].bn": "loop-এর ভেতর includes",
+  "blocks[10].text.bn": "ক্রম + index চাই → array। আছে কি না জানতে → Set। key দিয়ে খুঁজতে → Map। খালি সংখ্যা দলে দলে → typed array। যে নিশ্চয়টা আসলে দরকার, তারই দাম দিন।",
+  "exercises[2].options[1].bn": "ভিতরে আরেকটি array",
+  "quiz.questions[0].options[0].bn": "কখনো কপি করে না",
+  "quiz.questions[0].options[2].bn": "engine একসাথে কয়েকটি কাজ চালায়",
+  "quiz.questions[0].options[3].bn": "শুধু string-এর জন্য",
+  "quiz.questions[2].options[0].bn": "যেকোনো type থাকতে পারে",
+  "quiz.questions[2].options[1].bn": "দৈর্ঘ্য স্থির, এক ধরনের সংখ্যা, একটি flat buffer",
+  "quiz.questions[2].options[3].bn": "এটি linked list"
+ }
+}

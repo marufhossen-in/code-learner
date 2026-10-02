@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CodeShikhon</title>
+    <script>
+      // Single Page App redirect for GitHub Pages
+      var path = window.location.pathname;
+      var repo = path.split('/')[1] || '';
+      var sub = path.split('/').slice(2).join('/');
+      var query = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace(
+        window.location.origin + '/' + repo + '/#' + (sub ? '/' + sub : '/') + query + hash
+      );
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to CodeShikhon...</p>
+  </body>
+</html>

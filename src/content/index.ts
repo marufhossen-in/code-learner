@@ -1,0 +1,157 @@
+import type { Hub, Lesson } from '../lib/types';
+import { javascriptHub } from './javascript';
+import { htmlHub } from './html';
+import { cssHub } from './css';
+import { gitHub } from './git';
+import { reactHub } from './react';
+import { sqlHub } from './sql';
+import { networkingHub } from './networking';
+import { securityHub } from './security-fundamentals';
+import { dockerHub } from './docker';
+import { k8sHub } from './kubernetes';
+import { tsHub } from './typescript';
+import { pyHub } from './python';
+import { sortHub } from './dsa';
+import { htHub } from './hashtables';
+import { llHub } from './linkedlists';
+import { stackHub } from './stacks';
+import { queueHub } from './queues';
+import { treeHub } from './trees';
+import { heapHub } from './heaps';
+import { graphHub } from './graphs';
+import { graphAlgoHub } from './graph-algorithms';
+import { searchingHub } from './searching';
+import { sysdHub } from './system-design';
+import { cchHub } from './caching';
+import { dsyHub } from './distributed-systems';
+import { httpHub } from './http';
+import { restHub } from './rest';
+import { graphqlHub } from './graphql';
+import { nodeHub } from './node';
+import { nextjsHub } from './nextjs';
+import { vueHub } from './vue';
+import { angularHub } from './angular';
+import { tanstackQueryHub } from './tanstack-query';
+import { tailwindHub } from './tailwind';
+import { webApisHub } from './web-apis';
+import { domHub } from './dom';
+import { canvasHub } from './canvas';
+import { svgHub } from './svg';
+import { threejsHub } from './threejs';
+import { gsapHub } from './gsap';
+import { accessibilityHub } from './accessibility';
+import { jqueryHub } from './jquery';
+import { bootstrapHub } from './bootstrap';
+import { sassHub } from './sass';
+import { webComponentsHub } from './web-components';
+import { responsiveDesignHub } from './responsive-design';
+import { nodejsHub } from './nodejs';
+import { expressHub } from './express';
+import { nestjsHub } from './nestjs';
+import { djangoHub } from './django';
+import { flaskHub } from './flask';
+import { fastapiHub } from './fastapi';
+import { phpHub } from './php';
+import { laravelHub } from './laravel';
+import { javaHub } from './java';
+import { springHub } from './spring';
+import { csharpHub } from './csharp';
+import { dotnetHub } from './dotnet';
+import { goHub } from './go';
+import { rustHub } from './rust';
+import { rubyHub } from './ruby';
+import { cHub } from './c';
+import { cppHub } from './cpp';
+import { langCsharpHub } from './lang-csharp';
+import { langJavaHub } from './lang-java';
+import { langPythonHub } from './lang-python';
+import { langJavascriptHub } from './lang-javascript';
+import { langTypescriptHub } from './lang-typescript';
+import { langGoHub } from './lang-go';
+import { langRustHub } from './lang-rust';
+import { kotlinHub } from './kotlin';
+import { swiftHub } from './swift';
+import { langPhpHub } from './lang-php';
+import { langRubyHub } from './lang-ruby';
+import { rHub } from './r';
+import { dartHub } from './dart';
+import { scalaHub } from './scala';
+import { mysqlHub } from './mysql';
+import { postgresqlHub } from './postgresql';
+import { mongodbHub } from './mongodb';
+import { redisHub } from './redis';
+import { sqliteHub } from './sqlite';
+import { dbFundamentalsHub } from './db-fundamentals';
+import { dbDesignHub } from './db-design';
+import { normalizationHub } from './normalization';
+import { transactionsHub } from './transactions';
+import { indexesHub } from './indexes';
+import { queryOptimizationHub } from './query-optimization';
+import { arraysHub } from './arrays';
+import { recursionHub } from './recursion';
+import { dynamicProgrammingHub } from './dynamic-programming';
+import { greedyHub } from './greedy';
+import { githubHub } from './github';
+import { cicdHub } from './cicd';
+import { linuxHub } from './linux';
+import { nginxHub } from './nginx';
+import { reverseProxyHub } from './reverse-proxy';
+import { loadBalancingHub } from './load-balancing';
+import { monitoringHub } from './monitoring';
+import { loggingHub } from './logging';
+import { iacHub } from './iac';
+import { awsHub } from './aws';
+import { azureHub } from './azure';
+import { gcpHub } from './gcp';
+import { cloudFundamentalsHub } from './cloud-fundamentals';
+import { objectStorageHub } from './object-storage';
+import { computeHub } from './compute';
+import { cloudNetworkingHub } from './cloud-networking';
+import { serverlessHub } from './serverless';
+import { containersHub } from './containers';
+import { aiFundamentalsHub } from './ai-fundamentals';
+import { machineLearningHub } from './machine-learning';
+import { deepLearningHub } from './deep-learning';
+import { generativeAiHub } from './generative-ai';
+import { llmsHub } from './llms';
+import { promptEngineeringHub } from './prompt-engineering';
+import { aiApisHub } from './ai-apis';
+import { embeddingsHub } from './embeddings';
+import { vectorDatabasesHub } from './vector-databases';
+import { ragHub } from './rag';
+import { webSecurityHub } from './web-security';
+import { authenticationHub } from './authentication';
+import { authorizationHub } from './authorization';
+import { encryptionHub } from './encryption';
+import { hashingHub } from './hashing';
+import { owaspHub } from './owasp';
+import { networkSecurityHub } from './network-security';
+import { secureCodingHub } from './secure-coding';
+import { operatingSystemsHub } from './operating-systems';
+import { computerArchitectureHub } from './computer-architecture';
+import { memoryHub } from './memory';
+import { cpuHub } from './cpu';
+import { processesHub } from './processes';
+import { threadsHub } from './threads';
+import { dnsHub } from './dns';
+import { tcpipHub } from './tcpip';
+import { linuxSysHub } from './linux-sys';
+
+/** Content registry. New hubs register here (admin CMS will write to this layer). */
+export const HUBS: Hub[] = [htmlHub, cssHub, javascriptHub, gitHub, reactHub, sqlHub, networkingHub, securityHub, dockerHub, k8sHub, tsHub, pyHub, sortHub, htHub, llHub, stackHub, queueHub, treeHub, heapHub, graphHub, graphAlgoHub, searchingHub, sysdHub, cchHub, dsyHub, httpHub, restHub, graphqlHub, nodeHub, nextjsHub, vueHub, angularHub, tanstackQueryHub, tailwindHub, webApisHub, domHub, canvasHub, svgHub, threejsHub, gsapHub, accessibilityHub, jqueryHub, bootstrapHub, sassHub, webComponentsHub, responsiveDesignHub, nodejsHub, expressHub, nestjsHub, djangoHub, flaskHub, fastapiHub, phpHub, laravelHub, javaHub, springHub, csharpHub, dotnetHub, goHub, rustHub, rubyHub, cHub, cppHub, langCsharpHub, langJavaHub, langPythonHub, langJavascriptHub, langTypescriptHub, langGoHub, langRustHub, kotlinHub, swiftHub, langPhpHub, langRubyHub, rHub, dartHub, scalaHub, mysqlHub, postgresqlHub, mongodbHub, redisHub, sqliteHub, dbFundamentalsHub, dbDesignHub, normalizationHub, transactionsHub, indexesHub, queryOptimizationHub, arraysHub, recursionHub, dynamicProgrammingHub, greedyHub, githubHub, cicdHub, linuxHub, nginxHub, reverseProxyHub, loadBalancingHub, monitoringHub, loggingHub, iacHub, awsHub, azureHub, gcpHub, cloudFundamentalsHub, objectStorageHub, computeHub, cloudNetworkingHub, serverlessHub, containersHub, aiFundamentalsHub, machineLearningHub, deepLearningHub, generativeAiHub, llmsHub, promptEngineeringHub, aiApisHub, embeddingsHub, vectorDatabasesHub, ragHub, webSecurityHub, authenticationHub, authorizationHub, encryptionHub, hashingHub, owaspHub, networkSecurityHub, secureCodingHub, operatingSystemsHub, computerArchitectureHub, memoryHub, cpuHub, processesHub, threadsHub, dnsHub, tcpipHub, linuxSysHub];
+
+export function getHub(slug: string): Hub | undefined {
+  return HUBS.find((h) => h.slug === slug);
+}
+
+export function allLessons(): Lesson[] {
+  return HUBS.flatMap((h) => h.lessons);
+}
+
+export function findLesson(tech: string, slug: string): Lesson | undefined {
+  return getHub(tech)?.lessons.find((l) => l.slug === slug);
+}
+
+export function lessonCount(): number {
+  return allLessons().length;
+}

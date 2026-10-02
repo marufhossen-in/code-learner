@@ -1,0 +1,74 @@
+# nodejs: 71 readability findings — fix in src/content/_specs/nodejs.mjs, then
+#   node tools/reauthor.mjs nodejs && GATE_DETAIL=6 bash tools/audit/run.sh nodejs
+# hub-level notes first, then one line per lesson finding.
+readability: opener is too dense to start from	6 sentences, 34 words each
+readability: jargon in the opener with no gloss	THE
+readability: sentence too long to follow	THE PASS RUNS ON LIBUV: the event loop turns fixed phases — expired timers fire, pending callbacks run, the poll phase waits on I/…
+readability: romanised Bengali left in the twin	regex
+readability: romanised Bengali left in the twin	label
+readability: romanised Bengali left in the twin	timer
+readability: opener is too dense to start from	6 sentences, 27 words each
+readability: jargon in the opener with no gloss	SHELVES
+readability: the second sentence repeats the first	THE TYPE FIELD DECIDES: “type”: “module” shelves .js as ESM, “commonjs || RELATIVES RESOLVE, BARES WALK: ./pot resolves from the importing file 
+readability: sentence too long to follow	THE LAB FILE IS A PANTRY AISLE WITH LABELED SHELVES: the type-module manifest shelving .js as ESM, the exports menu serving only t…
+readability: one word carries the whole paragraph	“import” x8 :: ল্যাব ফাইল label-তাকসহ ভাণ্ডার গলি: .js-ESM-তাকে-রাখা type-module manifest, শুধু মূল পদ-পরিবেশিত exports menu,
+readability: the second sentence repeats the first	TICKET ONE — “require() throws ERR_REQUIRE_ESM.” A CJS server required || And the postmortem recorded the border sentence verbatim: require load
+readability: one word carries the whole paragraph	“import” x8 :: টিকিট এক — “require() ERR_REQUIRE_ESM throw করে।” এক CJS server খাঁটি-ESM package require করল সীমান্ত-কামড় দে
+readability: the second sentence repeats the first	./pot.js resolves — extension filed, ESM exactness satisfied; node:fs || Answers resolving ./pot deny exactness; answers walking node:fs deny p
+readability: romanised Bengali left in the twin	version
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	8 sentences, 20 words each
+readability: jargon in the opener with no gloss	TIMERS
+readability: romanised Bengali left in the twin	assert
+readability: romanised Bengali left in the twin	assert
+readability: romanised Bengali left in the twin	await
+readability: romanised Bengali left in the twin	recurse
+readability: romanised Bengali left in the twin	timer
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	7 sentences, 21 words each
+readability: jargon in the opener with no gloss	READABLES
+readability: romanised Bengali left in the twin	await
+readability: romanised Bengali left in the twin	buffer
+readability: one word carries the whole paragraph	“error” x5 :: টিকিট এক — “CSV import 8 GB RAM খেল।” এক job বিশাল রপ্তানি-readFileSync করল heap-ফাটা দেখল; ফিক্স বেল্ট — লাইন
+readability: romanised Bengali left in the twin	byte
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	8 sentences, 17 words each
+readability: jargon in the opener with no gloss	PROMISES
+readability: romanised Bengali left in the twin	stat
+readability: romanised Bengali left in the twin	rename
+readability: sentence too long to follow	And the temp-rename pair closes the crash window direct writes leave open: crashes strand only .tmp orphans — readers seeing old-o…
+readability: same Bengali word repeated	প্রতি x7
+readability: romanised Bengali left in the twin	rename
+readability: romanised Bengali left in the twin	await
+readability: romanised Bengali left in the twin	idempotent
+readability: romanised Bengali left in the twin	descriptor
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	7 sentences, 19 words each
+readability: jargon in the opener with no gloss	SERVERS
+readability: sentence too long to follow	The cold room stocks — this sixth room plates the first dish: http servers answering sockets (createServer handing every connectio…
+readability: same Bengali word repeated	প্রতি x6
+readability: romanised Bengali left in the twin	parse
+readability: romanised Bengali left in the twin	order
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	7 sentences, 18 words each
+readability: jargon in the opener with no gloss	EMITTERS
+readability: one word carries the whole paragraph	“error” x7 :: pass পরিবেশন করে — এই সপ্তম ঘর প্রতি সংকেত বাজায়: listener-সম্প্রচার EventEmitter (সবসময়-জবাব on, শুধু-প্রথম
+readability: romanised Bengali left in the twin	scale
+readability: romanised Bengali left in the twin	throw
+readability: romanised Bengali left in the twin	audit
+readability: same Bengali word repeated	লাইন x6
+readability: opener speaks to nobody	CLUSTERS FORK PER CORE: primaries forking workers, workers sharing one port — exits respawned, reloads disconn
+readability: opener is too dense to start from	7 sentences, 19 words each
+readability: jargon in the opener with no gloss	CLUSTERS
+readability: sentence too long to follow	The bells ring — this eighth room grows the kitchen to production: clusters forking a worker per core (shared ports, respawned exi…
+readability: romanised Bengali left in the twin	balancer
+readability: romanised Bengali left in the twin	profile
+readability: romanised Bengali left in the twin	query
+readability: same Bengali word repeated	প্রতি x9
+readability: romanised Bengali left in the twin	unthread
+readability: romanised Bengali left in the twin	roll
+readability: romanised Bengali left in the twin	scale
+readability: romanised Bengali left in the twin	traceable
+readability: romanised Bengali left in the twin	query
+readability: romanised Bengali left in the twin	grep
+readability: romanised Bengali left in the twin	scale

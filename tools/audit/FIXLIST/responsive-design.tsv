@@ -1,0 +1,66 @@
+# responsive-design: 63 readability findings — fix in src/content/_specs/responsive-design.mjs, then
+#   node tools/reauthor.mjs responsive-design && GATE_DETAIL=6 bash tools/audit/run.sh responsive-design
+# hub-level notes first, then one line per lesson finding.
+readability: opener is too dense to start from	6 sentences, 39 words each
+readability: jargon in the opener with no gloss	THE
+readability: sentence too long to follow	THE PAGE HAS TWO WIDTHS: the layout viewport sizes the document — the canvas media queries read and percentages resolve against — …
+readability: same Bengali word repeated	ইঞ্চি x7
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	11 sentences, 21 words each
+readability: jargon in the opener with no gloss	WIDTHS
+readability: sentence too long to follow	Fluid type serves the room (viewport width, via the vw slope) and the reader (browser font size, via the rem floor) — clamp(1rem, …
+readability: metaphor where the mechanism belongs	floor, ceiling :: min picks tighter, max picks looser — clamp chains floor-fluid-ceiling when both bounds govern one size
+readability: romanised Bengali left in the twin	clamp
+readability: same Bengali word repeated	লাইন x6
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	6 sentences, 40 words each
+readability: jargon in the opener with no gloss	THE
+readability: sentence too long to follow	Around the climb stand the modern fittings: range syntax (width >= 48em) stating stops readably, em-denominated breakpoints honori…
+readability: the second sentence repeats the first	THE CLIMB ENHANCES UPWARD: mobile-first writes the base garment for th || THE DESCENT UNPICKS DOWNWARD: desktop-first writes the wide garment fi
+readability: sentence too long to follow	THE CLIMB ENHANCES UPWARD: mobile-first writes the base garment for the narrowest room — single column, stacked nav, full-width me…
+readability: one word carries the whole paragraph	“appointment” x6 :: চড়াই উপরে উন্নত করে: mobile-first সরুতম ঘরে ভিত্তি পোশাক লেখে — এক কলাম, স্তূপ nav, পূর্ণ-চওড়া media — তারপর
+readability: sentence too long to follow	THE LAB FILE IS AN APPOINTMENT BOOK WITH THREE ENTRIES: the base entry dresses the narrow room — stacked nav, single cards, zero q…
+readability: one word carries the whole paragraph	“entry” x6 :: ল্যাব ফাইল তিন-entry appointment বই: ভিত্তি entry সরু ঘর সাজায় — স্তূপ nav, একক card, শূন্য query; 40em entry
+readability: same Bengali word repeated	থামা x10
+readability: same Bengali word repeated	লাইন x6
+readability: sentence too long to follow	The shop grades this on the four guarantees stated exactly: the base line (narrow-first, zero queries) guarantees a working garmen…
+readability: opener is too dense to start from	11 sentences, 20 words each
+readability: jargon in the opener with no gloss	BASIS
+readability: the second sentence repeats the first	The schedule keeps — this fourth room bends boxes at the workbench: fl || Flex-basis sets the honest starting size each item negotiates from — a
+readability: romanised Bengali left in the twin	file
+readability: romanised Bengali left in the twin	file
+readability: one word carries the whole paragraph	“order” x8 :: DOM order is the sequence of record — tab stops, reading order, announced order — while order resequences pain
+readability: same Bengali word repeated	ক্রম x8
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	10 sentences, 21 words each
+readability: jargon in the opener with no gloss	FIT
+readability: one word carries the whole paragraph	“minmax” x5 :: fit থাকাটা গুনে: repeat(auto-fit, minmax(16rem, 1fr)) খাপ-কলাম গুনে, খালি track ভাঙে, item পুরো ঘরে টানে — শূন
+readability: romanised Bengali left in the twin	button
+readability: romanised Bengali left in the twin	file
+readability: romanised Bengali left in the twin	item
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	6 sentences, 35 words each
+readability: jargon in the opener with no gloss	WIDTHS
+readability: sentence too long to follow	Width-described srcset offers the browser a shelf of byte sizes — 480w, 960w, 1600w — while sizes reports the honest display width…
+readability: the second sentence repeats the first	WIDTHS SHELF, SIZES REPORTS, BROWSER PICKS: srcset=“…480w, …960w, …160 || DENSITY SERVES FIXED GLYPHS: srcset=“tick.png 1x, tick@2x.png 2x” with
+readability: sentence too long to follow	WIDTHS SHELF, SIZES REPORTS, BROWSER PICKS: srcset=“…480w, …960w, …1600w” shelves byte options; sizes=“(width >= 60em) 50vw, 100vw…
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	6 sentences, 36 words each
+readability: jargon in the opener with no gloss	DECLARE
+readability: sentence too long to follow	Container queries file appointments against the parent — container-type: inline-size declaring the measuring room, @container (wid…
+readability: one word carries the whole paragraph	“parent-” x5 :: ছবি খাপ খায় — এই সপ্তম ঘর চওড়ারই ওপারে পা রাখে: viewport-বদলে parent-সেলাই component, ঘর-পার মানা অধিকার, স্
+readability: the second sentence repeats the first	PARENTS DECLARE ROOMS: container-type: inline-size on the parent decla || FLUIDS READ PARENTS: cqw sizes to 1% of the container’s width — clamp(
+readability: sentence too long to follow	PARENTS DECLARE ROOMS: container-type: inline-size on the parent declares a measuring room — its inline inches queryable; @contain…
+readability: romanised Bengali left in the twin	table
+readability: one word carries the whole paragraph	“parent” x5 :: ল্যাব ফাইল দুই-ঘর এক-card বাড়ি: তাক মাপা-ঘর ঘোষণা করে — একই পাতায় rail-সরু-hero-চওড়া parent; card-শিরোনাম য
+readability: one word carries the whole paragraph	“table” x5 :: টিকিট এক — “আমার container query কখনো ফাটে না।” এক লেখক অঘোষিত parent-বিরুদ্ধে @container লিখলেন viewport সত্য
+readability: one word carries the whole paragraph	“hover” x5 :: স্পর্শ pointer hover পারে না — tap সক্রিয় করে, long-press আনুমানিক করে; hover: none অনুপস্থিতি শনাক্ত করে hov
+readability: romanised Bengali left in the twin	button
+readability: same Bengali word repeated	লাইন x6
+readability: opener is too dense to start from	6 sentences, 31 words each
+readability: jargon in the opener with no gloss	FLUID
+readability: the second sentence repeats the first	FLUID STRETCHES, STOPS RESHAPE: clamp glides type, minmax floors track || PARENTS TAILOR, VIEWPORTS RULE SKELETONS: cards, chips and dialogs app
+readability: same Bengali word repeated	থামা x8
+readability: romanised Bengali left in the twin	file
+readability: romanised Bengali left in the twin	file
+readability: sentence too long to follow	Stretch files clamp(1.75rem, 1.25rem + 2.5vw, 3rem) headlines with auto-fit minmax rails — unbuilt widths covered; reshape files o…

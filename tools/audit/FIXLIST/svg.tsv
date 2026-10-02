@@ -1,0 +1,92 @@
+# svg: 89 readability findings — fix in src/content/_specs/svg.mjs, then
+#   node tools/reauthor.mjs svg && GATE_DETAIL=6 bash tools/audit/run.sh svg
+# hub-level notes first, then one line per lesson finding.
+readability: the second sentence repeats the first	THE COUNTER OF FOUR WINDOWS (the hanging contracts): (1) INLINE — the || (2) IMG — <img src="icon.svg"> — the SVG becomes a SEALED WINDOW: it i
+readability: sentence too long to follow	Every picture on this floor is a small XML tree of elements (svg, path, circle, g, text...) that the browser parses into REAL DOM …
+readability: Bengali twin written mostly in English	clip vs mask, retained geometry, re-cut pixels, the size law, visiblePainted: the default that bites
+readability: the second sentence repeats the first	THE MOVES, five families: M/m pen-up reposition (every visible mark ne || A/a elliptical arc, the odd member: rx ry then x-axis-rotation, then t
+readability: sentence too long to follow	Every pane in the works is cut by one language: the d attribute of <path> — a compact imperative grammar of letters and numbers th…
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: Bengali twin written mostly in English	command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: পাঠটি command grammar, subpaths and M, S and T, the mirrors, arc as a constraint একসঙ্গে ফাইল করে — প্রতিটি-শব
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: Bengali twin written mostly in English	command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: পাঠটি command grammar, subpaths and M, S and T, the mirrors, arc as a constraint একসঙ্গে ফাইল করে — প্রতিটি-শব
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: Bengali twin written mostly in English	command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: পাঠটি command grammar, subpaths and M, S and T, the mirrors, arc as a constraint একসঙ্গে ফাইল করে — প্রতিটি-শব
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: Bengali twin written mostly in English	command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: পাঠটি command grammar, subpaths and M, S and T, the mirrors, arc as a constraint একসঙ্গে ফাইল করে — প্রতিটি-শব
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: Bengali twin written mostly in English	command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: পাঠটি command grammar, subpaths and M, S and T, the mirrors, arc as a constraint একসঙ্গে ফাইল করে — প্রতিটি-শব
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: Bengali twin written mostly in English	command grammar, subpaths and M, S and T, the mirrors, arc as a constraint
+readability: metaphor where the mechanism belongs	grammar :: পাঠটি command grammar, subpaths and M, S and T, the mirrors, arc as a constraint একসঙ্গে ফাইল করে — প্রতিটি-শব
+readability: metaphor where the mechanism belongs	grammar :: খাতার ক্রম: command grammar, subpaths and M, S and T, the mirrors, arc as a constraint — প্রতিটি-শব্দ এখানে তা
+readability: the second sentence repeats the first	Width and height attributes, by contrast, are only SIZE PROPOSALS: int || THE FLOOD THE FRAME DRAINS: an <svg> with no viewBox has no proportion
+readability: sentence too long to follow	viewBox="minX minY WIDTH HEIGHT" then pins a sash over that space: it says which rectangle of user units the drawing shows, and — …
+readability: romanised Bengali left in the twin	export
+readability: the second sentence repeats the first	কেস ১ — "card-এ আইকন ঝিমঝিমে, full-screen-এ নিখুঁত।" অ-স্কেলড ৩০০×১৫০- || মাপ-চুক্তি আবার, তিন বৈধ বাক্য, কম্পোনেন্ট-প্রতি এক: width:100%; heigh
+readability: Bengali twin written mostly in English	1em, currentColor: the two inheritance lines, viewBox only, never width/height, raster is a print of the vecto
+readability: Bengali twin written mostly in English	1em, currentColor: the two inheritance lines, viewBox only, never width/height, raster is a print of the vecto
+readability: Bengali twin written mostly in English	1em, currentColor: the two inheritance lines, viewBox only, never width/height, raster is a print of the vecto
+readability: Bengali twin written mostly in English	1em, currentColor: the two inheritance lines, viewBox only, never width/height, raster is a print of the vecto
+readability: Bengali twin written mostly in English	1em, currentColor: the two inheritance lines, viewBox only, never width/height, raster is a print of the vecto
+readability: the second sentence repeats the first	Geometry is the lead; paint is the glass, and the glass has a LAW OF A || THE PAINT VOCABULARY: fill and stroke each take any CSS paint — colors
+readability: sentence too long to follow	Geometry is the lead; paint is the glass, and the glass has a LAW OF ARRIVAL: SVG is retained-mode — every element owns its paint,…
+readability: the second sentence repeats the first	The style shop of the glass works is not a new discipline — it is the || THE CSS SIDE OF THE ALPHABET: every paint attribute is also a property
+readability: sentence too long to follow	The style shop of the glass works is not a new discipline — it is the DOM hub’s cascade with new PAINT VOCABULARY, and every law y…
+readability: the second sentence repeats the first	কাচ-আড়তের স্টাইল-দোকান নতুন বিদ্যা নয় — DOM হাবের cascade নতুন রঙ-শব || CSS-পক্ষের বর্ণমালা: প্রতি paint attribute একটা property (fill, fill-r
+readability: sentence too long to follow	Because style audits become readable: when every file declares its override-able faces (currentColor for themed parts, hard colors…
+readability: Bengali twin written mostly in English	one mark, two embeddings, 1em, currentColor: the two inheritance lines, viewBox only, never width/height, rast
+readability: Bengali twin written mostly in English	one mark, two embeddings, 1em, currentColor: the two inheritance lines, viewBox only, never width/height, rast
+readability: Bengali twin written mostly in English	one mark, two embeddings, 1em, currentColor: the two inheritance lines, viewBox only, never width/height, rast
+readability: Bengali twin written mostly in English	one mark, two embeddings, 1em, currentColor: the two inheritance lines, viewBox only, never width/height, rast
+readability: Bengali twin written mostly in English	one mark, two embeddings, 1em, currentColor: the two inheritance lines, viewBox only, never width/height, rast
+readability: the second sentence repeats the first	THE THREE ENGINES by who drives time: (1) CSS transitions on paint pro || — no: SMIL begin-attribute interaction events do NOT run in <img> (iso
+readability: sentence too long to follow	THE THREE ENGINES by who drives time: (1) CSS transitions on paint properties — fill, stroke, stroke-width, opacity, stop-color of…
+readability: the second sentence repeats the first	তিন ইঞ্জিন, সময় যারা চালায়: (১) paint property-তে CSS transition — f || তৃতীয় দরজা, scripting: element.animate() (Web Animations API — ক্যানভ
+readability: sentence too long to follow	তিন ইঞ্জিন, সময় যারা চালায়: (১) paint property-তে CSS transition — fill, stroke, stroke-width, opacity, gradient-এর stop-color, …
+readability: romanised Bengali left in the twin	export
+readability: sentence too long to follow	Because the sealed window can animate itself: the loader spinner, the payment-processing bloom, the email-client hero that breathe…
+readability: romanised Bengali left in the twin	attribute
+readability: sentence too long to follow	The light now moves on the glass; next the glass answers back — The Glass That Rings: SVG’s event bus and hit-testing physics (poi…
+readability: the second sentence repeats the first	HIT TESTING is the physics: after the engine computes geometry, it ask || THE EVENTS are the DOM hub’s events, unchanged and therefore free: cli
+readability: sentence too long to follow	HIT TESTING is the physics: after the engine computes geometry, it asks “what point did the pointer fall inside,” and SVG answers …
+readability: the second sentence repeats the first	EVENTS DOM হাবের-ই event, অপরিবর্তন-হলেই বিনামূল্যে: click, pointerdow || FOCUS সংবিধান-অংশ: keyboard-এ চলানোর জন্য focusable করতে হয়, সৎ-পদ্ধত
+readability: sentence too long to follow	HIT TESTING পদার্থবিজ্ঞান: geometry গণনার পর engine জিজ্ঞেস করে "পয়েন্টার কোন অংশের ভিতরে পড়ল", আর SVG-র উত্তর সবাই-ধরে-নেওয়া এ…
+readability: sentence too long to follow	Because touch targets live in two coordinate systems at once, and only the SVG author knows both: the viewBox says 10 units, the s…
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: Bengali twin written mostly in English	getScreenCTM is the coordinate door, command grammar, subpaths and M, S and T, the mirrors
+readability: the second sentence repeats the first	THE HUB’S LAST LESSON IS NOT A NEW LAW BUT A REHEARSAL: eight laws hav || THIS LESSON ASSEMBLES THREE PRODUCTS IN FULL, and the products are the
+readability: sentence too long to follow	THE HUB’S LAST LESSON IS NOT A NEW LAW BUT A REHEARSAL: eight laws have been cut, glazed, framed, painted, styled, lit, and hung w…
+readability: the second sentence repeats the first	হাবের শেষ পাঠ নতুন আইন নয়, রিহার্সাল: আটটি আইন কাটা, কাচ-বসানো, খাম-দ || এই পাঠ তিনটি পণ্য পুরো-গাঁথনে এঁকে দেয় — পণ্যগুলা হাবের intro যেগুলোর
+readability: sentence too long to follow	এই পাঠ তিনটি পণ্য পুরো-গাঁথনে এঁকে দেয় — পণ্যগুলা হাবের intro যেগুলোর প্রতিশ্রুতি দিয়েছিল: (১) icon সিস্টেম: symbolভরা sprite ফা…
+readability: sentence too long to follow	Building them is the only way to see the laws as one system: the catalog picks the door, the cutter draws the shape, the frame set…
+readability: sentence too long to follow	Because production work is mostly the choices NO law prescribes: which door for which surface, which file carries the <style>, whe…
+readability: sentence too long to follow	Because the tools must know the laws too: an optimizer that deletes the viewBox re-opens the flood, a bundler that strips <style> …
+readability: sentence too long to follow	The SVG hub travels with you into the accessibility hub (where the control contract you signed for every interactive pane becomes …
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: sentence too long to follow	loop → keyframes in the file’s <style> at file tier, media-gated with a frozen-end base; valves → hit pads sized by the 44px rule …
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
+readability: Bengali twin written mostly in English	source is the spec, artifact is the product, one mark, two embeddings, 1em, currentColor: the two inheritance 
